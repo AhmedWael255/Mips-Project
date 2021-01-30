@@ -1,0 +1,452 @@
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f MIPS.ut MIPS.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf 
+bitgen -intstyle ise -f MIPS.ut MIPS.ncd 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+bitgen -intstyle ise -f MIPS.ut MIPS.ncd 
+bitgen -intstyle ise -f MIPS.ut MIPS.ncd 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+bitgen -intstyle ise -f MIPS.ut MIPS.ncd 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+bitgen -intstyle ise -f MIPS.ut MIPS.ncd 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+bitgen -intstyle ise -f MIPS.ut MIPS.ncd 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+bitgen -intstyle ise -f MIPS.ut MIPS.ncd 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+bitgen -intstyle ise -f MIPS.ut MIPS.ncd 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+bitgen -intstyle ise -f MIPS.ut MIPS.ncd 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+bitgen -intstyle ise -f MIPS.ut MIPS.ncd 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 "MIPS.ngc" MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 "MIPS.ngc" MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 "MIPS.ngc" MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/VHDL Code/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 "MIPS.ngc" MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/matlap SW/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/matlap SW/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/matlap SW/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/matlap SW/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/matlap SW/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/matlap SW/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/matlap SW/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/matlap SW/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/matlap SW/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/matlap SW/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/matlap SW/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/matlap SW/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/matlap SW/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/matlap SW/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+bitgen -intstyle ise -f MIPS.ut MIPS.ncd 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Ahmed/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Ahmed/Desktop/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 MIPS.ngc MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Khaled/Desktop/MIPs/MIPS.xst" -ofn "C:/Users/Khaled/Desktop/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 "MIPS.ngc" MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+bitgen -intstyle ise -f MIPS.ut MIPS.ncd 
+bitgen -intstyle ise -f MIPS.ut MIPS.ncd 
+xst -intstyle ise -ifn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.xst" -ofn "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MIPS.ngc MIPS_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MIPS_UCF.ucf -p xc6slx4-tqg144-3 "MIPS.ngc" MIPS.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MIPS_map.ncd MIPS.ngd MIPS.pcf 
+par -w -intstyle ise -ol high -mt off MIPS_map.ncd MIPS.ncd MIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MIPS.twx MIPS.ncd -o MIPS.twr MIPS.pcf -ucf MIPS_UCF.ucf 
+bitgen -intstyle ise -f MIPS.ut MIPS.ncd 

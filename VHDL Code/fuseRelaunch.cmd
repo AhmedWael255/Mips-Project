@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/tb_MIPS_isim_beh.exe" -prj "E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/tb_MIPS_beh.prj" "work.tb_MIPS" 

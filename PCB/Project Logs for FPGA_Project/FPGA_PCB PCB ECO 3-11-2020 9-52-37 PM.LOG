@@ -1,0 +1,59 @@
+Removed Pin From Net: NetName=1.2V Pin=C30-1
+Removed Pin From Net: NetName=GND Pin=C30-2
+Removed Pin From Net: NetName=3.3V Pin=C31-1
+Removed Pin From Net: NetName=GND Pin=C31-2
+Removed Pin From Net: NetName=OUT Pin=U1-14
+Removed Pin From Net: NetName=OUT Pin=U1-15
+Removed Pin From Net: NetName=OUT Pin=U1-16
+Removed Pin From Net: NetName=OUT Pin=U1-17
+Removed Pin From Net: NetName=OUT Pin=U1-21
+Removed Pin From Net: NetName=OUT Pin=U1-22
+Removed Pin From Net: NetName=OUT Pin=U1-23
+Removed Pin From Net: NetName=OUT Pin=U1-24
+Removed Pin From Net: NetName=OUT Pin=U1-50
+Removed Pin From Net: NetName=OUT Pin=U1-51
+Removed Pin From Net: NetName=OUT Pin=U1-55
+Removed Pin From Net: NetName=OUT Pin=U1-56
+Removed Pin From Net: NetName=OUT Pin=U1-84
+Removed Pin From Net: NetName=OUT Pin=U1-85
+Removed Pin From Net: NetName=OUT Pin=U1-87
+Removed Pin From Net: NetName=OUT Pin=U1-88
+Removed Pin From Net: NetName=OUT Pin=U1-92
+Removed Pin From Net: NetName=OUT Pin=U1-93
+Removed Pin From Net: NetName=OUT Pin=U1-94
+Removed Pin From Net: NetName=OUT Pin=U1-95
+Change Component Footprint: Designator=C30 Old Footprint=C0805 New Footprint=PANACAP-b
+Change Component Footprint: Designator=C31 Old Footprint=C0805 New Footprint=PANACAP-b
+Change Component Comment : Designator=C30 Old Comment=Cap Pol3 New Comment=10uF-16V
+Change Component Comment : Designator=C31 Old Comment=Cap Pol3 New Comment=10uF-16V
+Change component parameters: Designator = "C30"; Footprint = "PANACAP-b"; UniqueID = "\AVVPUMRY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "PCE3782TR-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C31"; Footprint = "PANACAP-b"; UniqueID = "\KQHKOXHQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "PCE3782TR-ND"; VariantName = "[No Variations]"
+Added Component: Designator=C18(CAPC2012X135N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://katalog.we-online.com/pbs/datasheet/885012107013.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "885012107013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "710-885012107013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=710-885012107013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Part Number"; Value = "1814065P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Price/Stock"; Value = "http://uk.rs-online.com/web/p/products/1814065P"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C18-1
+Added Pin To Net: NetName=1.2V Pin=C18-2
+Added Pin To Net: NetName=1.2V Pin=C30-+
+Added Pin To Net: NetName=GND Pin=C30--
+Added Pin To Net: NetName=3.3V Pin=C31-+
+Added Pin To Net: NetName=GND Pin=C31--
+Added Member To Class: ClassName=FPGA Member=Component C18 4.7UF
+Added Member To Class: ClassName=FPGA Member=Component C30 10uF-16V
+Added Member To Class: ClassName=FPGA Member=Component C31 10uF-16V
+Added Room: Name=BANK_0
+Added Room: Name=BANK_2
+Added Room: Name=BANK_3
+Added Room: Name=FPGA

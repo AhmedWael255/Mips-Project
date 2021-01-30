@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=OUT Pin=U1-50
+Removed Pin From Net: NetName=OUT Pin=U1-51
+Removed Pin From Net: NetName=OUT Pin=U1-55
+Removed Pin From Net: NetName=OUT Pin=U1-56
+Removed Pin From Net: NetName=OUT Pin=U1-85
+Added Member To Class: ClassName=FPGA Member=Component C30 10uF-16V
+Added Member To Class: ClassName=FPGA Member=Component C31 10uF-16V

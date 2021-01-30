@@ -1,0 +1,120 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Apr 29 06:04:12 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "P124" LEVEL 1;
+PIN clk_pin<0> = BEL "clk" PINNAME PAD;
+PIN "clk_pin<0>" CLOCK_DEDICATED_ROUTE;
+COMP "IN_Port<0>" LOCATE = SITE "P35" LEVEL 1;
+COMP "IN_Port<1>" LOCATE = SITE "P34" LEVEL 1;
+COMP "IN_Port<2>" LOCATE = SITE "P33" LEVEL 1;
+COMP "IN_Port<3>" LOCATE = SITE "P32" LEVEL 1;
+COMP "IN_Port<4>" LOCATE = SITE "P30" LEVEL 1;
+COMP "IN_Port<5>" LOCATE = SITE "P29" LEVEL 1;
+COMP "IN_Port<6>" LOCATE = SITE "P27" LEVEL 1;
+COMP "IN_Port<7>" LOCATE = SITE "P26" LEVEL 1;
+COMP "IN_Port<8>" LOCATE = SITE "P24" LEVEL 1;
+COMP "IN_Port<9>" LOCATE = SITE "P23" LEVEL 1;
+COMP "IN_Port<10>" LOCATE = SITE "P22" LEVEL 1;
+COMP "IN_Port<11>" LOCATE = SITE "P21" LEVEL 1;
+COMP "IN_Port<12>" LOCATE = SITE "P17" LEVEL 1;
+COMP "IN_Port<20>" LOCATE = SITE "P8" LEVEL 1;
+COMP "IN_Port<13>" LOCATE = SITE "P16" LEVEL 1;
+COMP "IN_Port<21>" LOCATE = SITE "P7" LEVEL 1;
+COMP "IN_Port<14>" LOCATE = SITE "P15" LEVEL 1;
+COMP "IN_Port<22>" LOCATE = SITE "P6" LEVEL 1;
+COMP "IN_Port<30>" LOCATE = SITE "P138" LEVEL 1;
+COMP "IN_Port<15>" LOCATE = SITE "P14" LEVEL 1;
+COMP "IN_Port<23>" LOCATE = SITE "P5" LEVEL 1;
+COMP "IN_Port<31>" LOCATE = SITE "P137" LEVEL 1;
+COMP "IN_Port<16>" LOCATE = SITE "P12" LEVEL 1;
+COMP "IN_Port<24>" LOCATE = SITE "P2" LEVEL 1;
+COMP "IN_Port<17>" LOCATE = SITE "P11" LEVEL 1;
+COMP "IN_Port<25>" LOCATE = SITE "P1" LEVEL 1;
+COMP "IN_Port<18>" LOCATE = SITE "P10" LEVEL 1;
+COMP "IN_Port<26>" LOCATE = SITE "P142" LEVEL 1;
+COMP "IN_Port<19>" LOCATE = SITE "P9" LEVEL 1;
+COMP "IN_Port<27>" LOCATE = SITE "P141" LEVEL 1;
+COMP "IN_Port<28>" LOCATE = SITE "P140" LEVEL 1;
+COMP "IN_Port<29>" LOCATE = SITE "P139" LEVEL 1;
+COMP "reset" LOCATE = SITE "P134" LEVEL 1;
+COMP "OUT_Port<10>" LOCATE = SITE "P74" LEVEL 1;
+COMP "OUT_Port<11>" LOCATE = SITE "P75" LEVEL 1;
+COMP "OUT_Port<12>" LOCATE = SITE "P78" LEVEL 1;
+COMP "OUT_Port<20>" LOCATE = SITE "P87" LEVEL 1;
+COMP "OUT_Port<13>" LOCATE = SITE "P79" LEVEL 1;
+COMP "OUT_Port<21>" LOCATE = SITE "P88" LEVEL 1;
+COMP "OUT_Port<14>" LOCATE = SITE "P80" LEVEL 1;
+COMP "OUT_Port<22>" LOCATE = SITE "P92" LEVEL 1;
+COMP "OUT_Port<30>" LOCATE = SITE "P101" LEVEL 1;
+COMP "OUT_Port<15>" LOCATE = SITE "P81" LEVEL 1;
+COMP "OUT_Port<23>" LOCATE = SITE "P93" LEVEL 1;
+COMP "OUT_Port<31>" LOCATE = SITE "P102" LEVEL 1;
+COMP "OUT_Port<16>" LOCATE = SITE "P82" LEVEL 1;
+COMP "OUT_Port<24>" LOCATE = SITE "P94" LEVEL 1;
+COMP "OUT_Port<17>" LOCATE = SITE "P83" LEVEL 1;
+COMP "OUT_Port<25>" LOCATE = SITE "P95" LEVEL 1;
+COMP "OUT_Port<18>" LOCATE = SITE "P84" LEVEL 1;
+COMP "OUT_Port<26>" LOCATE = SITE "P97" LEVEL 1;
+COMP "OUT_Port<19>" LOCATE = SITE "P85" LEVEL 1;
+COMP "OUT_Port<27>" LOCATE = SITE "P98" LEVEL 1;
+COMP "OUT_Port<28>" LOCATE = SITE "P99" LEVEL 1;
+COMP "OUT_Port<29>" LOCATE = SITE "P100" LEVEL 1;
+COMP "OUT_Port<0>" LOCATE = SITE "P43" LEVEL 1;
+COMP "OUT_Port<1>" LOCATE = SITE "P44" LEVEL 1;
+COMP "OUT_Port<2>" LOCATE = SITE "P45" LEVEL 1;
+COMP "OUT_Port<3>" LOCATE = SITE "P46" LEVEL 1;
+COMP "OUT_Port<4>" LOCATE = SITE "P47" LEVEL 1;
+COMP "OUT_Port<5>" LOCATE = SITE "P48" LEVEL 1;
+COMP "OUT_Port<6>" LOCATE = SITE "P50" LEVEL 1;
+COMP "OUT_Port<7>" LOCATE = SITE "P51" LEVEL 1;
+COMP "OUT_Port<8>" LOCATE = SITE "P55" LEVEL 1;
+COMP "OUT_Port<9>" LOCATE = SITE "P56" LEVEL 1;
+PIN X6/Mram_array_reg1_pins<16> = BEL "X6/Mram_array_reg1" PINNAME CLKAWRCLK;
+PIN X6/Mram_array_reg1_pins<17> = BEL "X6/Mram_array_reg1" PINNAME CLKBRDCLK;
+PIN X6/Mram_array_reg_pins<16> = BEL "X6/Mram_array_reg" PINNAME CLKAWRCLK;
+PIN X6/Mram_array_reg_pins<17> = BEL "X6/Mram_array_reg" PINNAME CLKBRDCLK;
+PIN X11/Mram_DM_pins<18> = BEL "X11/Mram_DM" PINNAME CLKA;
+PIN X11/Mram_DM_pins<19> = BEL "X11/Mram_DM" PINNAME CLKB;
+PIN X16/Mram_Stack_pins<16> = BEL "X16/Mram_Stack" PINNAME CLKAWRCLK;
+PIN X16/Mram_Stack_pins<17> = BEL "X16/Mram_Stack" PINNAME CLKBRDCLK;
+TIMEGRP clk = BEL "X1/pc_out_31" BEL "X1/pc_out_30" BEL "X1/pc_out_29" BEL
+        "X1/pc_out_28" BEL "X1/pc_out_27" BEL "X1/pc_out_26" BEL
+        "X1/pc_out_25" BEL "X1/pc_out_24" BEL "X1/pc_out_23" BEL
+        "X1/pc_out_22" BEL "X1/pc_out_21" BEL "X1/pc_out_20" BEL
+        "X1/pc_out_19" BEL "X1/pc_out_18" BEL "X1/pc_out_17" BEL
+        "X1/pc_out_16" BEL "X1/pc_out_15" BEL "X1/pc_out_14" BEL
+        "X1/pc_out_13" BEL "X1/pc_out_12" BEL "X1/pc_out_11" BEL
+        "X1/pc_out_10" BEL "X1/pc_out_9" BEL "X1/pc_out_8" BEL "X1/pc_out_7"
+        BEL "X1/pc_out_6" BEL "X1/pc_out_5" BEL "X1/pc_out_4" BEL
+        "X1/pc_out_3" BEL "X1/pc_out_2" BEL "X1/pc_out_1" BEL "X1/pc_out_0"
+        BEL "X16/S_adress_31" BEL "X16/S_adress_30" BEL "X16/S_adress_29" BEL
+        "X16/S_adress_28" BEL "X16/S_adress_27" BEL "X16/S_adress_26" BEL
+        "X16/S_adress_25" BEL "X16/S_adress_24" BEL "X16/S_adress_23" BEL
+        "X16/S_adress_22" BEL "X16/S_adress_21" BEL "X16/S_adress_20" BEL
+        "X16/S_adress_19" BEL "X16/S_adress_18" BEL "X16/S_adress_17" BEL
+        "X16/S_adress_16" BEL "X16/S_adress_15" BEL "X16/S_adress_14" BEL
+        "X16/S_adress_13" BEL "X16/S_adress_12" BEL "X16/S_adress_11" BEL
+        "X16/S_adress_10" BEL "X16/S_adress_9" BEL "X16/S_adress_8" BEL
+        "X16/S_adress_7" BEL "X16/S_adress_6" BEL "X16/S_adress_5" BEL
+        "X16/S_adress_4" BEL "X16/S_adress_3" BEL "X16/S_adress_2" BEL
+        "X16/S_adress_1" BEL "X16/S_adress_0" BEL "X16/nop" BEL "X18/Reg_31"
+        BEL "X18/Reg_30" BEL "X18/Reg_29" BEL "X18/Reg_28" BEL "X18/Reg_27"
+        BEL "X18/Reg_26" BEL "X18/Reg_25" BEL "X18/Reg_24" BEL "X18/Reg_23"
+        BEL "X18/Reg_22" BEL "X18/Reg_21" BEL "X18/Reg_20" BEL "X18/Reg_19"
+        BEL "X18/Reg_18" BEL "X18/Reg_17" BEL "X18/Reg_16" BEL "X18/Reg_15"
+        BEL "X18/Reg_14" BEL "X18/Reg_13" BEL "X18/Reg_12" BEL "X18/Reg_11"
+        BEL "X18/Reg_10" BEL "X18/Reg_9" BEL "X18/Reg_8" BEL "X18/Reg_7" BEL
+        "X18/Reg_6" BEL "X18/Reg_5" BEL "X18/Reg_4" BEL "X18/Reg_3" BEL
+        "X18/Reg_2" BEL "X18/Reg_1" BEL "X18/Reg_0" BEL "X1/pc_out_0_1" BEL
+        "X1/pc_out_1_1" BEL "X1/pc_out_4_1" BEL "X1/pc_out_2_1" BEL
+        "X1/pc_out_3_1" BEL "X1/pc_out_4_2" BEL "X1/pc_out_0_2" BEL
+        "X1/pc_out_1_2" BEL "clk_BUFGP/BUFG" PIN "X6/Mram_array_reg1_pins<16>"
+        PIN "X6/Mram_array_reg1_pins<17>" PIN "X6/Mram_array_reg_pins<16>" PIN
+        "X6/Mram_array_reg_pins<17>" PIN "X11/Mram_DM_pins<18>" PIN
+        "X11/Mram_DM_pins<19>" PIN "X16/Mram_Stack_pins<16>" PIN
+        "X16/Mram_Stack_pins<17>";
+TS_clk = PERIOD TIMEGRP "clk" 30 ns HIGH 50%;
+SCHEMATIC END;
+

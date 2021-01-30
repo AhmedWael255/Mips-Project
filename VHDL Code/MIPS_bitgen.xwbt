@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\KHALED\Communication - Second Year\Second Term\Measurements\Project\VHDL Code\MIPs\MIPS.ncd
+OUTFILE=E:\KHALED\Communication - Second Year\Second Term\Measurements\Project\VHDL Code\MIPs\MIPS.bit
+FAMILY=Spartan6
+PART=xc6slx4-3tqg144
+WORKINGDIR=E:\KHALED\Communication - Second Year\Second Term\Measurements\Project\VHDL Code\MIPs
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=OUT Pin=U1-84
+Removed Pin From Net: NetName=OUT Pin=U1-87
+Removed Pin From Net: NetName=OUT Pin=U1-88
+Removed Pin From Net: NetName=OUT Pin=U1-92
+Removed Pin From Net: NetName=OUT Pin=U1-93
+Removed Pin From Net: NetName=OUT Pin=U1-94
+Removed Pin From Net: NetName=OUT Pin=U1-95
+Removed Pin From Net: NetName=OUT Pin=U1-124
+Removed Pin From Net: NetName=OUT Pin=U1-126
+Removed Pin From Net: NetName=OUT Pin=U1-127
+Removed Pin From Net: NetName=OUT Pin=U1-131
+Removed Pin From Net: NetName=OUT Pin=U1-132
+Removed Pin From Net: NetName=OUT Pin=U1-133
+Removed Pin From Net: NetName=OUT Pin=U1-134
+Added Room: Name=BANK_0
+Added Room: Name=BANK_2
+Added Room: Name=BANK_3
+Added Room: Name=FPGA

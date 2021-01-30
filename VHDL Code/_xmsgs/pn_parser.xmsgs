@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/ALU.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/ALU_Control.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MIPS.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/MUX_4_1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/Mux1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/Mux2.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/Mux3.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/Mux4.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/Mux5.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/Mux6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/Mux7.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/Mux8.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/Out_Reg.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/PC.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/PC_adder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/Stack.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/adder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/control_unit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/dataMemory.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/instructionMemory.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/pc_con.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/registerfile.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/KHALED/Communication - Second Year/Second Term/Measurements/Project/VHDL Code/MIPs/signextender.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+
